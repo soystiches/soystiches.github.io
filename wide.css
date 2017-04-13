@@ -1,0 +1,431 @@
+
+#container {
+    margin: 5px auto;
+    
+}
+
+
+
+/****************************** Header *****************************/
+
+.banner {
+    height: 84vh;
+    margin: 0 auto;
+    position: fixed;
+    background-color: #0C2D56;
+    color: #ffffff;
+    z-index: 11;
+}
+
+.headerphoto {
+    height: 20vh;
+    width: 100%;
+}
+
+.headerlogo {
+    margin-left: 25%;
+    padding-bottom: 5vh;
+    height: 100%;
+    width: 50%;
+}
+
+.headersubtext {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Special Elite', cursive; 
+    height: 48vh;
+}
+
+
+/****************************** Nav *****************************/
+/*
+nav {
+    color: white;
+    background: #fff;
+	overflow: hidden;
+	width: 100%;
+	height: 100px;
+
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 18px;
+}
+
+nav ol{
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    width: 25%;
+}
+
+nav li a {
+    padding-top: 16px;
+    padding-bottom: 16px;
+	color: #191919;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+
+nav li a:hover {
+	color: white;
+    opacity: 0.5;
+	background: black;
+}
+*/
+
+
+.navbar-default {
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+    transition: background 0.2s,padding 0.2s;
+    opacity: 0.75;
+    background-color: #06182d;
+    color: #ffffff;
+    font-family: 'Special Elite', cursive; 
+    margin-bottom: 0px;
+    z-index: 99;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.navbar {
+    font-family: 'Special Elite', cursive; 
+    border-radius: 0px 0px 0px 0px;
+    border: 0px;
+}
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+    position: fixed !important;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    transition: all 0.8s;
+    overflow: hidden;
+}
+
+.navbar-default .navbar-text {
+    color: #000000;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 18px;
+    padding: 5px
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+    color: #57C2E6;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-brand>img {
+    height: 100%;
+    width: auto;
+}
+
+.sponsors>.col-md-4 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.col-md-12 {
+    padding: 5%;
+}
+
+.navbar-default .navbar-toggle,.navbar-default-home .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar,.navbar-default-home .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+
+/****************************** Body *****************************/
+
+/*
+body {
+    background: rgba(0,0,0, 1) url(./images/wall.jpg);
+}
+*/
+
+body {
+    background-image: url(./images/wood.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+
+
+/* products */
+
+
+
+#products {
+    background: transparent;
+    padding: 2%;
+    color: white;
+}
+
+#products h2 {
+    margin-bottom: 1em;
+}
+
+
+/* pictures */
+
+.picture {
+    width: 32%;
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    line-height: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.picture img {
+    height: auto;
+    width: 100%;
+}
+
+.picture-text {
+    display: none;
+    position: absolute;
+    top: 0px;
+    padding: 0;
+    padding-left: 2vw;
+    margin: 0;
+    line-height: 14vh;
+    font-family: 'Special Elite', cursive; 
+    font-size: 18px;
+}
+.picture:hover .picture-text  {
+    
+    display: inline-block;
+}
+
+.picture:hover img {
+    opacity: 0.5;
+}
+
+/* MOBILE PICTURE CSS
+.portrait {
+    width: 90%;
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    line-height: 0;
+    margin: 5%;
+}
+
+.portrait img {
+    height: auto;
+    width: 100%;
+}
+
+.portrait-text {
+    display: none;
+    position: absolute;
+    top: 10px;
+    padding: 20px;
+    line-height: 24px;
+}
+.portrait:hover .portrait-text  {
+    
+    display: inline-block;
+}
+
+.portrait:hover img {
+    opacity: 0.5;
+}
+*/
+
+/******************** individual product page *****************************/
+
+.product {
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    background-color: black;
+    line-height: 0;
+    margin: 0;
+
+
+}
+
+
+.product-text h2{
+    position: absolute;
+    top: 0px;
+    padding: 0;
+    padding-left: 2vw;
+    margin: 0;
+    line-height: 14vh;
+    font-family: 'Special Elite', cursive; 
+    font-size: 18px;
+}
+
+
+.product-text p{
+
+
+}
+
+/******************** Text *****************************/
+.heading-one, .heading-two, .heading-three, .heading-four, .heading-five, li {
+    font-family: 'Special Elite', cursive;
+}
+.heading-one {
+    font-size: 18px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+.heading-two {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0px;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.heading-three {
+    font-size: 22px;
+    color: #191919;
+    text-align: center;
+    margin-top: 0px;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.heading-four {
+    padding-top: 0px;
+    padding-bottom: 25px;
+}
+
+.heading-five {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+li {
+    font-size: 36px;
+    padding-bottom: 0px;
+}
+
+
+/****************************** Tags ****************************/
+
+.faqheading {
+    width: 400px;
+    margin: 50px auto 10px auto;
+}
+
+.faq {
+    width: 400px;
+    margin: 15px auto 80px auto;
+}
+
+
+.homeheading {
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+}
+
+.homeheadings {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+}
+
+
+
+/****************************** Article *****************************/
+
+article {
+	float: left;
+	width: 100%;
+	padding: 1%;
+	margin-top: 1em;
+	margin-bottom: 10px;
+
+
+
+
+    
+}
+
+
+/****************************** Sidebar *****************************/
+
+aside#sidebar-first {
+	background-image: url(./images/background.png);
+	background-repeat: repeat;
+	
+	float: right;
+	width: 20%;
+	padding: 5%;
+	padding-top: 20px;
+	margin-top: 1em;
+}
+
+
+/****************************** Footer *****************************/
+
+footer {
+    clear: both;
+    color: white
+    background-color: #191919;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+}
+
+.footermiddle {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 0;
+}
